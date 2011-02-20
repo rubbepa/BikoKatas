@@ -12,8 +12,7 @@ namespace StringCalculatorTests
         {
             _calculator = 
                 new StringCalculator(
-                    new ConversorCadenaToNumeros(
-                        new UnificadorDeSeparadores()));               
+                    new ConversorCadenaToNumeros());               
         }
 
         [Fact]

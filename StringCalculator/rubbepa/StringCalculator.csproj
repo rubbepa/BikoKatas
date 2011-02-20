@@ -48,12 +48,10 @@
   <ItemGroup>
     <Compile Include="ConversorCadenaToNumeros.cs" />
     <Compile Include="IConversorCadenaToNumeros.cs" />
-    <Compile Include="IUnificadorDeSeparadores.cs" />
     <Compile Include="ListIntExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringCalculator.cs" />
     <Compile Include="StringCalculatorTests.cs" />
-    <Compile Include="UnificadorDeSeparadores.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
